@@ -32,3 +32,7 @@ And edit the new `config.py` file and add your own Pusher application credential
 * Click the 'Trigger' button to trigger and event with the data `{'msg': 'Hello world!'}`. The contents of the `msg` property will be alerted when it's pushed to the web application. The source which triggers the message is in `src/trigger.py`.
 * Click the 'Subscribe to Private Channel' button. The `src/pusher_auth.py` code will be executed to authenticate the subscription. When the subscription has been accepted by pusher the `pusher:subscription_succeeded` event will be triggered and an alert will appear confirming the subscription.
 * Click the 'Subscribe to Presence Channel' button. The `src/pusher_presence_auth.py` code will be executed to authenticate the subscription. When the subscription has been accepted by pusher the `pusher:subscription_succeeded` event will be triggered and an alert will appear confirming the subscription.
+
+## Demo:
+
+<http://gae-pusher-test.appspot.com/>
